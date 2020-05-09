@@ -33,7 +33,7 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }} 
       
-      # Run Snyk
+      # Run SCA
       - name: Snyk
         uses: snyk/actions@0.1.1
 
